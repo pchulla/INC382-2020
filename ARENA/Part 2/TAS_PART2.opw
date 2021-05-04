@@ -1,0 +1,25 @@
+[RESOURCES]
+Sales Officer
+Outbound Weighbridge
+Inbound Weighbridge
+DIESEL Dispenser
+GASOHOL95 Dispenser
+[VARIABLES]
+Create Repeatale Entity.NumberOut
+Inbound Weighbridge Process.NumberIn
+DIESEL Type ?.NumberOut True
+Truck Arrival.NumberOut Dup
+GASOHOL95 Bay Process.NumberIn
+GASOHOL95 Bay Process.NumberOut
+Sales Office Process.NumberOut
+DIESEL Type ?.NumberOut False
+DIESEL Bay Process.NumberIn
+Is DIESEL Type ?.NumberOut False
+Is DIESEL Type ?.NumberOut True
+Truck Departure.NumberOut
+Inbound Weighbridge Process.NumberOut
+Truck Arrival.NumberOut Orig
+Sales Office Process.NumberIn
+DIESEL Bay Process.NumberOut
+Outbound Weighbridge Process.NumberIn
+Outbound Weighbridge Process.NumberOut

@@ -1,0 +1,78 @@
+
+                                      ARENA Simulation Results
+                            phakhawat.chu@outlook.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/22/2021
+Analyst: phakhawat.chu@outlook.com                                   Model revision date: 3/22/2021
+
+Replication ended at time      : 46080.0 Minutes (Friday, April 02, 2021, 20:51:22)
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Truck.VATime                                72.223     .19470     50.203     83.288       3082    
+Truck.NVATime                               .00000     .00000     .00000     .00000       3082    
+Truck.WaitTime                              107.66     12.648     .00000     347.22       3082    
+Truck.TranTime                              25.158     .42249     3.9649     79.083       3082    
+Truck.OtherTime                             .00000     .00000     .00000     .00000       3082    
+Truck.TotalTime                             205.04     12.692     66.937     457.74       3082    
+Outbound Weighbridge Process.Queue.Waiting  3.9987     .33402     .00000     31.016       3082    
+Sales Office Process.Queue.WaitingTime      9.2952     1.2200     .00000     68.973       3082    
+Inbound Weighbridge Process.Queue.WaitingT  32.062     6.2397     .00000     144.00       3082    
+GASOHOL95 Bay Process.Queue.WaitingTime     7.7312     2.8326     .00000     88.952        498    
+DIESEL Bay Process.Queue.WaitingTime        72.826     10.710     .00000     279.49       2584    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Truck.WIP                                   14.705     1.8539     .00000     43.000     .00000    
+Sales Officer.NumberBusy                    .73680     .08321     .00000     2.0000     .00000    
+Sales Officer.NumberScheduled               2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Sales Officer.Utilization                   .36840     .04160     .00000     1.0000     .00000    
+Outbound Weighbridge.NumberBusy             .50230     .04192     .00000     1.0000     .00000    
+Outbound Weighbridge.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Outbound Weighbridge.Utilization            .50230     .04192     .00000     1.0000     .00000    
+Inbound Weighbridge.NumberBusy              .50533     .05442     .00000     1.0000     .00000    
+Inbound Weighbridge.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inbound Weighbridge.Utilization             .50533     .05442     .00000     1.0000     .00000    
+DIESEL Dispenser.NumberBusy                 2.5873     .22073     .00000     4.0000     .00000    
+DIESEL Dispenser.NumberScheduled            4.0000     (Insuf)    4.0000     4.0000     4.0000    
+DIESEL Dispenser.Utilization                .64684     .05518     .00000     1.0000     .00000    
+GASOHOL95 Dispenser.NumberBusy              .49877     .07886     .00000     2.0000     .00000    
+GASOHOL95 Dispenser.NumberScheduled         2.0000     (Insuf)    2.0000     2.0000     2.0000    
+GASOHOL95 Dispenser.Utilization             .24939     .03943     .00000     1.0000     .00000    
+Outbound Weighbridge Process.Queue.NumberI  .26745     .04524     .00000     4.0000     .00000    
+Sales Office Process.Queue.NumberInQueue    .62170     .13303     .00000     14.000     .00000    
+Inbound Weighbridge Process.Queue.NumberIn  2.1444     .57629     .00000     20.000     .00000    
+GASOHOL95 Bay Process.Queue.NumberInQueue   .08355     .03826     .00000     5.0000     .00000    
+DIESEL Bay Process.Queue.NumberInQueue      4.0838     .83033     .00000     24.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Truck.NumberIn                              3083.0    
+Truck.NumberOut                             3083.0    
+Sales Officer.NumberSeized                  3082.0    
+Sales Officer.ScheduledUtilization          .36840    
+Outbound Weighbridge.NumberSeized           3082.0    
+Outbound Weighbridge.ScheduledUtilization   .50230    
+Inbound Weighbridge.NumberSeized            3082.0    
+Inbound Weighbridge.ScheduledUtilization    .50533    
+DIESEL Dispenser.NumberSeized               2584.0    
+DIESEL Dispenser.ScheduledUtilization       .64684    
+GASOHOL95 Dispenser.NumberSeized            498.00    
+GASOHOL95 Dispenser.ScheduledUtilization    .24939    
+System.NumberOut                            3082.0    
+
+
+Simulation run time: 0.15 minutes.
+Simulation run complete.

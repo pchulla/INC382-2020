@@ -1,0 +1,88 @@
+
+                                      ARENA Simulation Results
+                            phakhawat.chu@outlook.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/27/2021
+Analyst: phakhawat.chu@outlook.com                                   Model revision date: 4/27/2021
+
+Replication ended at time      : 46080.0 Minutes (Friday, April 02, 2021, 00:00:00)
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Truck.VATime                                72.156     .17205     50.871     83.589       3082    
+Truck.NVATime                               .00000     .00000     .00000     .00000       3082    
+Truck.WaitTime                              664.13     (Corr)     .00000     1514.8       3082    
+Truck.TranTime                              25.434     .38677     1.7829     90.411       3082    
+Truck.OtherTime                             .00000     .00000     .00000     .00000       3082    
+Truck.TotalTime                             761.72     (Corr)     87.093     1600.7       3082    
+Outbound Weighbridge Process.Queue.Waiting  1.6040     .09688     .00000     21.353       3082    
+Sales Office Process.Queue.WaitingTime      9.1087     1.3445     .00000     73.126       3082    
+GASOHOL95 Waiting.Queue.WaitingTime         3.3065     1.0905     .00000     155.08        498    
+Parking.Queue.WaitingTime                   651.62     (Corr)     .00000     1512.6       3082    
+Inbound Weighbridge Process.Queue.WaitingT  .00000     .00000     .00000     .00000       3082    
+Emergency GASOHOL95 Failed Wait.Queue.Wait  .00000     .00000     .00000     .00000        498    
+DIESEL Waiting.Queue.WaitingTime            1.4409     .16465     .00000     132.03       2584    
+GASOHOL95 Bay Process.Queue.WaitingTime     .00000     .00000     .00000     .00000        498    
+DIESEL Bay Process.Queue.WaitingTime        .00000     .00000     .00000     .00000       2584    
+Emergency DIESEL Failed Wait.Queue.Waiting  .06582     .11207     .00000     137.69       2584    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Truck.WIP                                   51.907     (Corr)     .00000     110.00     .00000    
+Sales Officer.NumberBusy                    .73621     .05800     .00000     2.0000     .00000    
+Sales Officer.NumberScheduled               2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Sales Officer.Utilization                   .36811     .02900     .00000     1.0000     .00000    
+Outbound Weighbridge.NumberBusy             .50171     .01163     .00000     1.0000     .00000    
+Outbound Weighbridge.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Outbound Weighbridge.Utilization            .50171     .01163     .00000     1.0000     .00000    
+Inbound Weighbridge.NumberBusy              .50205     .01272     .00000     1.0000     .00000    
+Inbound Weighbridge.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inbound Weighbridge.Utilization             .50205     .01272     .00000     1.0000     .00000    
+DIESEL Dispenser.NumberBusy                 2.5873     .08499     .00000     4.0000     .00000    
+DIESEL Dispenser.NumberScheduled            4.0000     (Insuf)    4.0000     4.0000     4.0000    
+DIESEL Dispenser.Utilization                .64684     .02125     .00000     1.0000     .00000    
+GASOHOL95 Dispenser.NumberBusy              .49877     .03670     .00000     2.0000     .00000    
+GASOHOL95 Dispenser.NumberScheduled         2.0000     (Insuf)    2.0000     2.0000     2.0000    
+GASOHOL95 Dispenser.Utilization             .24939     .01835     .00000     1.0000     .00000    
+Outbound Weighbridge Process.Queue.NumberI  .10728     .00613     .00000     3.0000     .00000    
+Sales Office Process.Queue.NumberInQueue    .60923     .12186     .00000     13.000     .00000    
+GASOHOL95 Waiting.Queue.NumberInQueue       .03573     (Insuf)    .00000     1.0000     .00000    
+Parking.Queue.NumberInQueue                 43.583     (Corr)     .00000     102.00     .00000    
+Inbound Weighbridge Process.Queue.NumberIn  .00000     (Insuf)    .00000     .00000     .00000    
+Emergency GASOHOL95 Failed Wait.Queue.Numb  .00000     (Insuf)    .00000     .00000     .00000    
+DIESEL Waiting.Queue.NumberInQueue          .08080     .01318     .00000     1.0000     .00000    
+GASOHOL95 Bay Process.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+DIESEL Bay Process.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Emergency DIESEL Failed Wait.Queue.NumberI  .00369     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Truck.NumberIn                              3083.0    
+Truck.NumberOut                             3083.0    
+Sales Officer.NumberSeized                  3082.0    
+Sales Officer.ScheduledUtilization          .36811    
+Outbound Weighbridge.NumberSeized           3082.0    
+Outbound Weighbridge.ScheduledUtilization   .50171    
+Inbound Weighbridge.NumberSeized            3082.0    
+Inbound Weighbridge.ScheduledUtilization    .50205    
+DIESEL Dispenser.NumberSeized               2584.0    
+DIESEL Dispenser.ScheduledUtilization       .64684    
+GASOHOL95 Dispenser.NumberSeized            498.00    
+GASOHOL95 Dispenser.ScheduledUtilization    .24939    
+System.NumberOut                            3082.0    
+
+
+Simulation run time: 1.20 minutes.
+Simulation run complete.
